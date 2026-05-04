@@ -1,0 +1,84 @@
+{
+  "numAccount60DPDL6M" : {
+    "enabled" : true,
+    "isHardDecline" : false,
+    "lowerThreshold" : 0,
+    "reason" : "Adverse business credit report information"
+  },
+  "experianSBFENoHit" : {
+    "enabled" : true,
+    "isHardDecline" : true,
+    "reason" : "Adverse business credit report information"
+  },
+  "currentDebtSales" : {
+    "enabled" : true,
+    "isHardDecline" : false,
+    "lowerThreshold" : 0.5,
+    "reason" : "Earnings insufficient"
+  },
+  "numChargeOffsL6M" : {
+    "enabled" : true,
+    "isHardDecline" : false,
+    "lowerThreshold" : 0,
+    "reason" : "Adverse business credit report information"
+  },
+  "numLienAndJudgment" : {
+    "enabled" : true,
+    "isHardDecline" : false,
+    "lowerThreshold" : 10000,
+    "reason" : "Adverse business credit report information"
+  },
+  "num61DelinqL12M" : {
+    "enabled" : true,
+    "isHardDecline" : false,
+    "lowerThreshold" : 0,
+    "reason" : "Adverse business credit report information"
+  },
+  "chargeOffAmount" : {
+    "enabled" : true,
+    "isHardDecline" : false,
+    "lowerThreshold" : 2000,
+    "reason" : "Adverse business credit report information"
+  },
+  "numLien" : {
+    "enabled" : true,
+    "isHardDecline" : false,
+    "lowerThreshold" : 2,
+    "reason" : "Adverse business credit report information"
+  },
+  "currentPastDueAmount" : {
+    "enabled" : true,
+    "isHardDecline" : false,
+    "lowerThreshold" : 1000,
+    "reason" : "Adverse business credit report information"
+  },
+  "numChargeOffsEver" : {
+    "enabled" : true,
+    "isHardDecline" : false,
+    "lowerThreshold" : 1,
+    "reason" : "Adverse business credit report information"
+  },
+  "numJudgment" : {
+    "enabled" : true,
+    "isHardDecline" : false,
+    "lowerThreshold" : 1,
+    "reason" : "Adverse business credit report information"
+  },
+  "businessBK" : {
+    "enabled" : true,
+    "isHardDecline" : true,
+    "reason" : "Foreclosure, repossession or bankruptcyy"
+  },
+  "num31DelinqL12M" : {
+    "enabled" : true,
+    "isHardDecline" : false,
+    "lowerThreshold" : 4,
+    "reason" : "Adverse business credit report information"
+  },
+  "businessBKMD" : {
+    "enabled" : true,
+    "isHardDecline" : false,
+    "lowerThreshold" : 0,
+    "reason" : "Foreclosure, repossession or bankruptcy"
+  }
+}

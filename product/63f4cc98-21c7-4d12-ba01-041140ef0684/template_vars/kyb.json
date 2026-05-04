@@ -1,0 +1,8 @@
+{
+  "enableBusinessTaxIdVer": true,
+  "enableBusinessNameVer": true,
+  "enableBusinessAddressVer": true,
+  "enableBusinessSosVer": true,
+  "enableBusinessSosNameVer": false,
+  "enableBusinessLinkageVer": true
+}

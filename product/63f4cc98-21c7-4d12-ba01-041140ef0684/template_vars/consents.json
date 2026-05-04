@@ -1,0 +1,261 @@
+{
+  "groupLevelIntroText": {
+    "authDisclosures": "By proceeding, you consent to:",
+    "contractTermsAndAgreements": "I acknowledge that I have read and consent to the following terms and agreements, and attest that the information I have provided on this application is accurate.",
+    "additionalOwners": "By checking this box, I certify that I have read and agreed to the following terms and conditions."
+  },
+  "consentConfigs": {
+    "TCPA": {
+      "enabled": true,
+      "type": "link",
+      "display": "Receiving Calls & SMS Messages",
+      "url": "your_url_here",
+      "heading": "",
+      "body": "",
+      "text": "",
+      "introText": "",
+      "applicant": "primary"
+    },
+    "membershipRequirement": {
+      "enabled": true,
+      "type": "link",
+      "display": "Membership Requirement",
+      "url": "your_url_here",
+      "heading": "",
+      "body": "",
+      "text": "",
+      "introText": "",
+      "applicant": "primary"
+    },
+    "contractLink": {
+      "enabled": false,
+      "type": "pdf",
+      "display": "Card Agreement",
+      "url": "your_url_here",
+      "heading": "",
+      "body": "",
+      "text": "",
+      "introText": "",
+      "applicant": "primary"
+    },
+    "w8Ben": {
+      "enabled": true,
+      "type": "pdf",
+      "display": "IRS W-8Ben Form",
+      "url": "applicant.tenantContext.tenantId + '/api/contract/w-8ben-form-prefill:'+applicant.applicationId",
+      "heading": "",
+      "body": "",
+      "text": "",
+      "introText": "I certify that I have the capacity to sign for the person identified on line 1 of the:",
+      "applicant": "primary"
+    },
+    "accountOpeningDisclosure": {
+      "enabled": true,
+      "type": "pdf",
+      "display": "Account Opening Disclosure",
+      "url": "",
+      "heading": "",
+      "body": "",
+      "text": "",
+      "introText": "",
+      "applicant": "primary"
+    },
+    "security": {
+      "enabled": false,
+      "type": "link",
+      "display": "Security",
+      "url": "your_url_here",
+      "heading": "",
+      "body": "",
+      "text": "",
+      "introText": "",
+      "applicant": "primary"
+    },
+    "electronicCommunications": {
+      "enabled": true,
+      "type": "link",
+      "display": "Electronic Communications Act Notice",
+      "url": "your_url_here",
+      "heading": "",
+      "body": "",
+      "text": "",
+      "introText": "",
+      "applicant": "primary"
+    },
+    "businessCreditApplication": {
+      "enabled": true,
+      "type": "link",
+      "display": "Business Credit Application Acknowledgement and Agreement",
+      "url": "your_url_here",
+      "heading": "",
+      "body": "",
+      "text": "",
+      "introText": "",
+      "applicant": "all"
+    },
+    "privacyNotice": {
+      "enabled": true,
+      "type": "link",
+      "display": "Privacy Noticee",
+      "url": "your_url_here",
+      "heading": "",
+      "body": "",
+      "text": "",
+      "introText": "",
+      "applicant": "primary"
+    },
+    "customerTelecommunicationAgreementAndTCPA": {
+      "enabled": true,
+      "type": "link",
+      "display": "Customer Telecommunication Agreement and TCPA Agreement and Telemarketing Consent",
+      "url": "your_url_here",
+      "heading": "",
+      "body": "",
+      "text": "",
+      "introText": "",
+      "applicant": "primary"
+    },
+    "proxyStatement": {
+      "enabled": true,
+      "type": "link",
+      "display": "Proxy Statement Disclosure",
+      "url": "your_url_here",
+      "heading": "",
+      "body": "",
+      "text": "",
+      "introText": "Please read the Proxy Statement Disclosure and answer the next question:",
+      "applicant": "primary"
+    },
+    "guarantyLink": {
+      "enabled": true,
+      "type": "link",
+      "display": "Guaranty",
+      "url": "your_url_here",
+      "heading": "",
+      "body": "",
+      "text": "",
+      "introText": "",
+      "applicant": "primary"
+    },
+    "wisconsinSpousalNotice": {
+      "enabled": false,
+      "type": "screen",
+      "display": "Wisconsin Spousal Notice",
+      "url": "",
+      "heading": "",
+      "body": "",
+      "text": "Wisconsin law requires that lenders notify a customer's spouse by mail for funded loans. No provision of a marital property agreement (including a Statutory Individual Property Classification Agreement pursuant to Sec.766.587, Wis. Stats.), a unilateral statement under s. 766.59 or a court decree under s. 766.70 adversely affects the interest of the creditor unless the creditor, prior to the time the credit is granted, is furnished a copy of the agreement, statement or decree or has actual knowledge of the adverse provision when the obligation to the creditor is incurred.",
+      "introText": "",
+      "applicant": "primary"
+    },
+    "shareAccountDisclosure": {
+      "enabled": true,
+      "type": "link",
+      "display": "Share Account Disclosure",
+      "url": "your_url_here",
+      "heading": "",
+      "body": "",
+      "text": "",
+      "introText": "By clicking Continue, you consent to the",
+      "applicant": "primary"
+    },
+    "creditReportPullAuthorization": {
+      "enabled": false,
+      "type": "link",
+      "display": "Credit Report Pull Authorization",
+      "url": "your_url_here",
+      "heading": "",
+      "body": "",
+      "text": "",
+      "introText": "",
+      "applicant": "primary"
+    },
+    "ACHAuthorizationForm": {
+      "enabled": false,
+      "type": "link",
+      "display": "ACH Authorization Form",
+      "url": "your_url_here",
+      "heading": "",
+      "body": "",
+      "text": "",
+      "introText": "",
+      "applicant": "primary"
+    },
+    "beneficialOwnershipCertification": {
+      "enabled": true,
+      "type": "screen",
+      "display": "Beneficial Ownership Certification",
+      "url": "",
+      "heading": "Beneficial Ownership Certification",
+      "body": "I certify, to the best of my knowledge that the information provided above is complete and correct.",
+      "text": "Beneficial Ownership Certification: I certify, to the best of my knowledge that the information provided above is complete and correct.",
+      "introText": "",
+      "applicant": "all"
+    },
+    "termsOfUse": {
+      "enabled": true,
+      "type": "link",
+      "display": "Terms of Use",
+      "url": "your_url_here",
+      "heading": "",
+      "body": "",
+      "text": "",
+      "introText": "",
+      "applicant": "primary"
+    },
+    "usaPatriotAct": {
+      "enabled": false,
+      "type": "link",
+      "display": "USA Patriot Act Disclosure",
+      "url": "your_url_here",
+      "heading": "",
+      "body": "",
+      "text": "",
+      "introText": "",
+      "applicant": "primary"
+    },
+    "regBNotice": {
+      "enabled": true,
+      "type": "screen",
+      "display": "Regulation B",
+      "url": "your_url_here",
+      "heading": "",
+      "body": "",
+      "text": "Alimony, child support, or separate maintenance income do not need to be revealed if you do not wish to have them considered as a basis for repaying your loan.",
+      "introText": "",
+      "applicant": "primary"
+    },
+    "eSignConsents": {
+      "enabled": true,
+      "type": "link",
+      "display": "E-sign Consents",
+      "url": "your_url_here",
+      "heading": "",
+      "body": "",
+      "text": "",
+      "introText": "",
+      "applicant": "all"
+    },
+    "militaryLendingAct": {
+      "enabled": false,
+      "type": "screen",
+      "display": "Military Lending Act",
+      "url": "",
+      "heading": "",
+      "body": "",
+      "text": "Federal law provides important protections to members of the Armed Forces and their dependents relating to extensions of consumer credit. In general, the cost of consumer credit to a member of the Armed Forces and his or her dependent may not exceed an annual percentage rate of 36 percent. This rate must include, as applicable to the credit transaction or account: the costs associated with credit insurance premiums; fees for ancillary products sold in connection with the credit transaction; any application fee charged (other than certain application fees for specified credit transactions or accounts); and any participation fee charged (other than certain participation fees for a credit card account). To receive this information and a description of your payment obligation verbally, please call 1-800-222-9999.",
+      "introText": "",
+      "applicant": "primary"
+    },
+    "schumerBox": {
+      "enabled": true,
+      "type": "link",
+      "display": "Applications & Solicitations Disclosure",
+      "url": "your_url_here",
+      "heading": "",
+      "body": "",
+      "text": "",
+      "introText": ""
+    }
+  }
+}

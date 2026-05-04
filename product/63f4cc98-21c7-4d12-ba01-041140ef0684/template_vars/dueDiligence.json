@@ -1,0 +1,18 @@
+{
+  "internetGambling": true,
+  "marijuanaOrHemp": true,
+  "courierArmoredCar" : true,
+  "thirdPartyPaymentProcessors" : true,
+  "atm" : true,
+  "isEmbassy" : true,
+  "adultEntertainment" : true,
+  "shortTermConsumer" : true,
+  "digitalCurrency" : true,
+  "foreclosureInPast7Years" : true,
+  "obligatedOnForeclosure" : true,
+  "defaultOnFederalDebt" : true,
+  "defaultOnTaxPayment" : true,
+  "outstandingJudgements" : true,
+  "lawsuit" : true,
+  "politicallyExposed" : true
+}

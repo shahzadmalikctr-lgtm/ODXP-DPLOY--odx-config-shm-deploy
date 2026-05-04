@@ -1,0 +1,61 @@
+{
+  "highRequestedAmountByBlendedScore": {
+    "enabled": false,
+    "scores": [
+      {
+        "amount": 50000
+      },
+      {
+        "amount": 25000,
+        "score": 720
+      },
+      {
+        "amount": 10000,
+        "score": 660
+      }
+    ]
+  },
+  "lowBlendedScore": {
+    "enabled": true,
+    "lowerThreshold": 600,
+    "upperThreshold": 700
+  },
+  "recentDeclinedApps": {
+    "enabled": true,
+    "upperThreshold": 180
+  },
+  "impliedRevenueTotal": {
+    "enabled": true,
+    "isHardDecline": true,
+    "upperThreshold": 100000
+  },
+  "impliedToStatedRevenue": {
+    "enabled": true,
+    "isHardDecline": true,
+    "upperThreshold": 0.3
+  },
+  "debtToRevenue": {
+    "enabled": true,
+    "isHardDecline": true,
+    "lowerThreshold": 2
+  },
+  "averageBalance": {
+    "enabled": true,
+    "isHardDecline": true,
+    "upperThreshold": 2500
+  },
+  "nonSufficientFunds": {
+    "enabled": true,
+    "isHardDecline": true,
+    "lowerThreshold": 10
+  },
+  "balanceToPayment": {
+    "enabled": true,
+    "isHardDecline": true,
+    "upperThreshold": 1.5
+  },
+  "manualEscalation": {
+    "enabled": true
+  },
+  "cashFlowVerificationDeclineReason": "Unable to verify income"
+}

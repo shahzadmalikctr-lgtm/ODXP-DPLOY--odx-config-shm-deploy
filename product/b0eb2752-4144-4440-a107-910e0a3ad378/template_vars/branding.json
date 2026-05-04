@@ -1,0 +1,18 @@
+{
+  "colors": {
+    "primary": "#214948",
+    "primary10": "#e9eded",
+    "primary20": "#d3dbda",
+    "primary120": "#173433"
+  },
+  "logo": "",
+  "favicon": {
+    "ico": ""
+  },
+  "font": {
+    "family": {
+      "body": "Inter",
+      "heading": "Inter"
+    }
+  }
+}

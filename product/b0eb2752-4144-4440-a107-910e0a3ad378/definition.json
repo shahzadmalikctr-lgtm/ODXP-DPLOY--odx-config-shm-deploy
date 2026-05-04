@@ -1,0 +1,8 @@
+{
+  "productId": "b0eb2752-4144-4440-a107-910e0a3ad378",
+  "productName": "Commercial Cash Preferred",
+  "productType": "SMB_CREDIT_CARD",
+  "productTypeName": "SMB Credit Card",
+  "policy": "amt-smb-credit-card-policy",
+  "selfServiceManaged": true
+}

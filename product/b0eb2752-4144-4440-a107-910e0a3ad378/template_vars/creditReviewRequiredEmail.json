@@ -1,0 +1,7 @@
+{
+  "enabled": true,
+  "emailTo": "YourEmail@YourEmailDomain.com",
+  "subject": "URGENT: Application Awaiting Credit Team Review",
+  "heading": "Review Required",
+  "body": "<p style=\"margin: 0 auto\">Application {{{external_application_id}}} requires your review at your earliest convenience. Click on the button to be redirected to the application in the Amount Hub Queue Manager.</p>"
+}

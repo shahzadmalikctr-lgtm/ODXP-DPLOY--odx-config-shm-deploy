@@ -1,0 +1,28 @@
+{
+  "enabled": false,
+  "collectedPii": {
+    "ssn": false,
+    "residentialAddress": false,
+    "mailingAddress": false,
+    "phoneNumber": false,
+    "email": false
+  },
+  "maxCount": 9,
+  "content" : "<ul><li>Add them to your account without any additional application or credit check.</li><li>They will receive their own card tied to your account and you agree to be solely responsible for all transactions they make with it.</li><li>All cards will be sent to the address on file for the primary cardholder.</li><li>Additional owners are not automatically added as authorized users.</li></ul>",
+  "rules": {
+    "minimumAge": {
+      "enabled": false,
+      "age": 18
+    }
+  },
+  "disclosure": {
+    "introText": "By completing, I acknowledge that I have read and agree to:",
+    "type": "link",
+    "display": "Authorized User Terms and Conditions",
+    "text": "",
+    "url": "your_url_here",
+    "heading": "",
+    "body": ""
+  },
+  "aboutAuthorizedUsersText": "We've added your business's additional owners to the cardholder list below. To not issue them a card, delete them from the cardholder list. Need to add a cardholder who is not a beneficial owner of the business? Use the \"Add cardholder\" button at the bottom of cardholder list."
+}

@@ -1,0 +1,3 @@
+{
+  "body": "<p style=\"margin: 0 auto\">We're here to help,</p><p style=\"margin: 0 auto\"><br></p><p style=\"margin: 0 auto\">The {{org_name}} Team</p><p style=\"margin: 0 auto\">If you have questions, you can reach us at {{org_phone_number}}.</p><p style=\"margin: 0 auto\">Email: {{org_email}}</p><p style=\"margin: 0 auto\">{{{org_operating_hours}}}</p><p style=\"margin: 0 auto\"><br></p><p style=\"margin: 0 auto\">Mailing Address</p><p style=\"margin: 0 auto\">{{org_name}}</p><p style=\"margin: 0 auto\">{{{org_address}}}</p>"
+}

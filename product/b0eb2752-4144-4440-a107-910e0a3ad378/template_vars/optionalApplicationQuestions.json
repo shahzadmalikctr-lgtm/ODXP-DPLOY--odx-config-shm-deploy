@@ -1,0 +1,17 @@
+{
+  "grossAnnualIncome": true,
+  "rentOrOwn": true,
+  "monthlyHousingPayment": true,
+  "citizenshipStatus": true,
+  "countryOfCitizenship": true,
+  "isEmployeeOfFinancialInstitution": true,
+  "suppressCitizenshipQuestion": false,
+  "businessPhoneNumber": true,
+  "isNonProfit": true,
+  "annualSales": true,
+  "outstandingDebt": true,
+  "hasExistingLineOfCredit": true,
+  "hasPendingOwnershipChanges": true,
+  "isFranchise": true,
+  "creditCardBusinessName": true
+}

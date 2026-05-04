@@ -1,0 +1,7 @@
+{
+  "applicantMatchManualCheckEnabled": true,
+  "mitekProbability" : {
+    "enabled" : false,
+    "upperThreshold" : 500
+  }
+}
