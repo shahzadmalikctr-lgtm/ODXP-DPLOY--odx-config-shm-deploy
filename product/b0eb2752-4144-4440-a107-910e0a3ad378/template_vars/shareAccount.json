@@ -1,0 +1,15 @@
+{
+  "enabled": true,
+  "consent": {
+    "type": "modal",
+    "text": "By checking this box, you authorize Catalyst Bank to initiate a one-time ACH/electronic debit from the bank account listed above and in the amount listed above. It may take up to three business days to post to your bank account. You understand that if the debit entry under this authorization is returned for insufficient funds or otherwise dishonored, you will promptly remit the payment due plus any fees due under your account.",
+    "display": "ACH One-Time Debit Authorization",
+    "heading": "ACH One-Time Debit Authorization",
+    "body": "By checking this box, you authorize Catalyst Bank to initiate a one-time ACH/electronic debit from the bank account listed above and in the amount listed above. It may take up to three business days to post to your bank account. You Understand that if the debit entry under this authorization is returned for insufficient funds or otherwise dishonored, you will promptly remit the payment due plus any fees due under your account.",
+    "introText": "By checking this box, I consent to:",
+    "url": "your_url_here",
+    "includeAppBasePath": false
+  },
+  "minimumDepositAmount": 5,
+  "maximumDepositAmount": 10000
+}

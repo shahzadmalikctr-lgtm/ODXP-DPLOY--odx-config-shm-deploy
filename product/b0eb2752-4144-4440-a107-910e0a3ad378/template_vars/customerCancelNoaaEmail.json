@@ -1,0 +1,6 @@
+{
+  "enabled": true,
+  "subject": "Cancellation Confirmation",
+  "heading": "Application Decision",
+  "body": "<p style=\"margin: 0 auto\">Dear {{{applicantFirstName}}}, This email confirms that your application has been canceled. If you change your mind, we'd love to have you apply again.</p>"
+}

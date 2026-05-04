@@ -1,0 +1,8 @@
+{
+  "productId": "63f4cc98-21c7-4d12-ba01-041140ef0684",
+  "productName": "Commercial Zero+",
+  "productType": "SMB_CREDIT_CARD",
+  "productTypeName": "SMB Credit Card",
+  "policy": "amt-smb-credit-card-policy",
+  "selfServiceManaged": true
+}

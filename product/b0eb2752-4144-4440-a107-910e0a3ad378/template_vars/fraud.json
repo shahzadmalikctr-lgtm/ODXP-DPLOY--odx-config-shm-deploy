@@ -1,0 +1,50 @@
+{
+  "suspiciousDevice": {
+    "enabled": true,
+    "riskLevel": 2
+  },
+  "missingDevice": {
+    "enabled": true,
+    "riskLevel": 2
+  },
+  "modelHighScore": {
+    "enabled": true,
+    "riskLevel": 2
+  },
+  "modelMediumScore": {
+    "enabled": true,
+    "riskLevel": 1
+  },
+  "modelMissingScore": {
+    "enabled": true,
+    "riskLevel": 1
+  },
+  "youngEmail": {
+    "enabled": true,
+    "riskLevel": 1
+  },
+  "noncriticalReport": {
+    "enabled": true,
+    "riskLevel": 1
+  },
+  "vmUsed": {
+    "enabled": true,
+    "riskLevel": 2
+  },
+  "negativeBankHistory": {
+    "enabled": true,
+    "riskLevel": 2
+  },
+  "youngBankAccount": {
+    "enabled": true,
+    "riskLevel": 2
+  },
+  "youngEmailBankAccountAndPhone": {
+    "enabled": true,
+    "riskLevel": 2
+  },
+  "giactGAuth": {
+    "enabled": true,
+    "riskLevel": 2
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "product-config-viewer",
+  "metadata": {
+    "displayName": "Product Config Viewer",
+    "restrictiveSearch": false
+  },
+  "permissionSets": {
+    "$let": {
+      "pairedEnvironment": "serenityprod1"
+    },
+    "in": {
+      "$if": "env['name'] == pairedEnvironment",
+      "then": [
+        {
+          "operationSet": "Self Service Read"
+        }
+      ],
+      "else": []
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "phoneNumber": "800-555-1212",
+  "phoneUnformatted": "+18005551212",
+  "email": "apply@catalyst.amount.com",
+  "website": "https://www.amount.com",
+  "hoursMonFri": "9 AM CT - 9 PM CT",
+  "hoursSat": "10 AM CT - 5 PM CT",
+  "hoursSun": "10 AM CT - 2 PM CT",
+  "streetAddress": "222 N. LaSalle St., Suite 1600",
+  "city": "Chicago",
+  "state": "Illinois",
+  "zip": "60601"
+}

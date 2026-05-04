@@ -1,0 +1,27 @@
+{
+  "name": "product-config-publisher",
+  "metadata": {
+    "displayName": "Product Config Publisher",
+    "restrictiveSearch": false
+  },
+  "permissionSets": {
+    "$let": {
+      "pairedEnvironment": "serenityprod1"
+    },
+    "in": {
+      "$if": "env['name'] == pairedEnvironment",
+      "then": [
+        {
+          "operationSet": "Self Service Read"
+        },
+        {
+          "operationSet": "Self Service Write"
+        },
+        {
+          "operationSet": "Self Service Publish"
+        }
+      ],
+      "else": []
+    }
+  }
+}

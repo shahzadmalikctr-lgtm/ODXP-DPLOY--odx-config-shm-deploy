@@ -1,0 +1,6 @@
+{
+  "enabled": true,
+  "subject": "Your Application Will Expire Tomorrow!",
+  "heading": "Your Application Will Expire Tomorrow!",
+  "body": "<p style=\"margin: 0 auto\">Hi {{{applicantFirstName}}},</p><p style=\"margin: 0 auto\">Your {{{org_name}}} {{{product_name}}} application is about to expire. Please complete any remaining tasks so we can review your application and make a final decision.If your application is not completed by tomorrow, your application will be canceled and you will need to reapply.</p><p style=\"margin: 0 auto\">You can finish your tasks by logging in.</p>"
+}

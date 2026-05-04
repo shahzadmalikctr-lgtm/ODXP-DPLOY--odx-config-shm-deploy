@@ -1,0 +1,6 @@
+{
+  "enabled": true,
+  "subject": "Complete Your Application!",
+  "heading": "Help us make a decision on your application",
+  "body": "<p style=\"margin: 0 auto\">Hi {{{applicantFirstName}}},</p><p style=\"margin: 0 auto\">Thank you for expressing interest in a {{{product_name}}} through {{{org_name}}}! Please complete any remaining tasks so we can review your application and make a final decision.</p>"
+}

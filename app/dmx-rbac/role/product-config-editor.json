@@ -1,0 +1,24 @@
+{
+  "name": "product-config-editor",
+  "metadata": {
+    "displayName": "Product Config Editor",
+    "restrictiveSearch": false
+  },
+  "permissionSets": {
+    "$let": {
+      "pairedEnvironment": "serenityprod1"
+    },
+    "in": {
+      "$if": "env['name'] == pairedEnvironment",
+      "then": [
+        {
+          "operationSet": "Self Service Read"
+        },
+        {
+          "operationSet": "Self Service Write"
+        }
+      ],
+      "else": []
+    }
+  }
+}

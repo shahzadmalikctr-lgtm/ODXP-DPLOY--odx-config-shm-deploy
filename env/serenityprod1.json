@@ -1,0 +1,42 @@
+{
+  "name": "serenityprod1",
+  "services": {
+    "ingress": {
+      "odxCustomerApiGateway": "https://solutionstraining.amtplatform.com",
+      "amtVendorIntegrationService": "https://serenityprod1-amt-vendor-integration-service.tenant.linearft.engineering",
+      "odxDocumentManagementService": "https://serenityprod1-odx-document-management-service.tenant.linearft.engineering",
+      "odxSearchService": "https://serenityprod1-odx-search-service.tenant.linearft.engineering",
+      "odxButler": "not-provided",
+      "odxMockServices": "not-provided",
+      "odxDmxGateway": "https://solutionstraining-hub.amtplatform.com"
+    },
+    "reporting": {
+      "dataApiUrl": "https://solutionstraining-data-api.amtplatform.com"
+    },
+    "pscu": {
+      "baseUrl": "https://integrationconnect.com/pscu/prod",
+      "authPath": "/v1/access/oauth2/token"
+    },
+    "uil": {
+      "baseUrl": "https://login.microsoftonline.com/637d506f-142f-4107-9bcc-a59b77f4bd0e/oauth2/v2.0/token",
+      "authPath": ""
+    },
+    "nel": {
+      "baseUrl": "to-be-updated",
+      "authPath": ""
+    }
+  },
+  "ccRecipients": "",
+  "logo_url": "https://odxp-production-assets.s3.amazonaws.com/assets/shm/images/email/logo.png",
+  "app_url": "https://solutionstraining.amtplatform.com/shm",
+  "sandbox_app_url": "https://solutionstraining.amtpreview.com/shm",
+  "sandbox_queue_manager_url": "https://solutionstraining-hub.amtpreview.com",
+  "queue_manager_url": "https://solutionstraining-hub.amtplatform.com",
+  "pscuApi": {
+    "baseUrl": "https://integrationconnect.com/pscu/prod/api",
+    "authPath": "/v1/access/oauth2/token",
+    "clientId": "to-be-updated",
+    "fallbackUrl": "to-be-updated"
+  },
+  "looker_host": "solutionstraining-reporting.amtplatform.com"
+}
