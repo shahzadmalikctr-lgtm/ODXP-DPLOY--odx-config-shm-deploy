@@ -1,0 +1,6 @@
+{
+  "enabled": true,
+  "subject": "Welcome",
+  "heading": "Thank you for choosing us!",
+  "body": "<p style=\"margin: 0 auto\">Hi {{{applicantFirstName}}},</p><p style=\"margin: 0 auto\"><br></p><p style=\"margin: 0 auto\">You're almost there. You have 7 days to complete the application as of {{{currentDate}}}.</p>"
+}

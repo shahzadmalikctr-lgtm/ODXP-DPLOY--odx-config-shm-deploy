@@ -1,0 +1,6 @@
+{
+  "naicsRule": {
+    "enabled": true,
+    "reason": "High risk business"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "finicity": {
+    "enabled": true
+  },
+  "manual": {
+    "enabled": true
+  },
+  "offline": {
+    "enabled": true,
+    "text": "Please visit one of our branches to make a cash or check deposit.",
+    "confirmationRequired": true
+  }
+}

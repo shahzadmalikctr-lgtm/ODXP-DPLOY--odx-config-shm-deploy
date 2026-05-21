@@ -1,0 +1,25 @@
+{
+  "services": {
+    "ingress": {
+      "amtVendorIntegrationService": "https://serenityprdpr-amt-vendor-integration-service.tenant.linearft.engineering",
+      "odxButler": "https://serenityprdpr-odx-butler.tenant.linearft.engineering",
+      "odxMockServices": "https://serenityprdpr-odx-mock-services.tenant.linearft.engineering",
+      "odxCustomerApiGateway": "https://solutionstraining.amtpreview.com",
+      "odxDocumentManagementService": "https://serenityprdpr-odx-document-management-service.tenant.linearft.engineering",
+      "odxSearchService": "https://serenityprdpr-odx-search-service.tenant.linearft.engineering",
+      "odxDmxGateway": "https://solutionstraining-hub.amtpreview.com"
+    },
+    "reporting": {
+      "dataApiUrl": "https://catalyst-data-api.tenant.amtsandbox.com"
+    },
+    "pscu": {
+      "baseUrl": "https://awsapi-sandbox.pscu.com/pscu/sandbox",
+      "authPath": "/v1/access/oauth2/token"
+    }
+  },
+  "logo_url": "https://odxp-production-assets.s3.amazonaws.com/assets/shm/images/email/logo.png",
+  "app_url": "https://solutionstraining.amtplatform.com/shm",
+  "sandbox_app_url": "https://solutionstraining.amtpreview.com/shm",
+  "sandbox_queue_manager_url": "https://solutionstraining-hub.amtpreview.com",
+  "queue_manager_url": "https://solutionstraining-hub.amtplatform.com"
+}

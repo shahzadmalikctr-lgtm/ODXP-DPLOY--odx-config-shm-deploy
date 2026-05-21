@@ -1,0 +1,26 @@
+{
+  "FEATURE_CONNECTIONS": [
+    {
+      "allowUserCreation": true,
+      "displayName": "Login with Email",
+      "name": "ODX-Authentication"
+    },
+    {
+      "allowUserCreation": true,
+      "displayName": "Amount Employee",
+      "name": "LinearOkta"
+    }
+  ],
+  "REACT_APP_IDP_AUTHORIZATION_URLS": [
+    {
+      "name": "Login with Email",
+      "rank": 1,
+      "url": "/oauth2/authorization/auth0"
+    },
+    {
+      "name": "Amount Employee",
+      "rank": 2,
+      "url": "/oauth2/authorization/connection2"
+    }
+  ]
+}

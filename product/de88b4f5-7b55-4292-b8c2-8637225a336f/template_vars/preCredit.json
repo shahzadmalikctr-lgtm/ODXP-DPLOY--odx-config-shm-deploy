@@ -1,0 +1,83 @@
+{
+  "reApplication": {
+    "enabled": true,
+    "reason": "Declined too recently.",
+    "upperThreshold": 60
+  },
+  "priorConfirmedFraud": {
+    "enabled": true,
+    "reason": "Could not verify your identity."
+  },
+  "prohibitedIndustry": {
+    "enabled": true,
+    "reason": "Prohibited business industry"
+  },
+  "minimumAge": {
+    "enabled": true,
+    "reason": "Under legal age.",
+    "upperThreshold": 18
+  },
+  "businessTenure": {
+    "enabled": true,
+    "reason": "Business tenure too short",
+    "upperThreshold": 2
+  },
+  "highRiskBusinessTenure": {
+    "enabled": true,
+    "reason": "Business tenure too short",
+    "upperThreshold": 5
+  },
+  "internetGambling": {
+    "enabled": true,
+    "reason": "Prohibited business activities"
+  },
+  "marijuana": {
+    "enabled": true,
+    "reason": "Prohibited business activities"
+  },
+  "embassy": {
+    "enabled": true,
+    "reason": "Prohibited business activities"
+  },
+  "adultEntertainment": {
+    "enabled": true,
+    "reason": "Prohibited business activities"
+  },
+  "consumerLending": {
+    "enabled": true,
+    "reason": "Prohibited business activities"
+  },
+  "digitalCurrency": {
+    "enabled": true,
+    "reason": "Prohibited business activities"
+  },
+  "selfAttestPropertyForeclosure": {
+    "enabled": true,
+    "reason": "Foreclosure or bankruptcy"
+  },
+  "selfAttestGeneralForeclosure": {
+    "enabled": true,
+    "reason": "Foreclosure or bankruptcy"
+  },
+  "selfAttestDelinquentFederalDebt": {
+    "enabled": true,
+    "reason": "Delinquent credit obligations with others"
+  },
+  "selfAttestDelinquentTax": {
+    "enabled": true,
+    "reason": "Delinquent credit obligations with others"
+  },
+  "selfAttestJudgment": {
+    "enabled": true,
+    "reason": "Judgment or lawsuit"
+  },
+  "selfAttestLawsuit": {
+    "enabled": true,
+    "reason": "Judgment or lawsuit"
+  },
+  "applicantApprovedTooRecently": {
+    "enabled": true,
+    "reason": "Approved too recently.",
+    "upperThreshold": 60
+  }
+}

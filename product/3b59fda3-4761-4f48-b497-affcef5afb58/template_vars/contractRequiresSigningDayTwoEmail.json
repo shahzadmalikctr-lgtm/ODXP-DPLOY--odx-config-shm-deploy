@@ -1,0 +1,6 @@
+{
+  "enabled" : true,
+  "subject": "Reminder to sign your contract to get your funds",
+  "heading": "Your product is waiting!",
+  "body": "<p style=\"margin: 0 auto\">Hi {{{applicantFirstName}}},</p><p style=\"margin: 0 auto\"><br></p><p style=\"margin: 0 auto\">Your {{{org_name}}} {{{product_name}}} application has been approved! Sign your contract to receive your funds.</p>"
+}

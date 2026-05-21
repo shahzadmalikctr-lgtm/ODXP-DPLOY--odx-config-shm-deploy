@@ -1,0 +1,18 @@
+{
+  "scoreTooLow" : {
+    "enabled" : false,
+    "isHardDecline" : true,
+    "reason" : "Credit score does not meet our lending criteria updated.",
+    "upperThreshold" : 600
+  },
+  "noOffersGenerated" : {
+    "enabled" : true,
+    "isHardDecline" : false,
+    "reason" : "We could not generate an offer."
+  },
+  "experianSBFEBlendedNoScore" : {
+    "enabled" : false,
+    "isHardDecline" : true,
+    "reason" : "Credit score does not meet our lending criteria updated."
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "isRenewalOrRefinance": true,
+  "requestAmount": {
+    "lowerThreshold": 10000,
+    "upperThreshold": 100000
+  },
+  "options": [
+    {
+      "value": "Vehicle Purchase"
+    },
+    {
+      "value": "Vehicle Refinance"
+    },
+    {
+      "value": "Equipment Purchase"
+    },
+    {
+      "value": "Equipment Refinance"
+    },
+    {
+      "value": "Real Estate Purchase"
+    },
+    {
+      "value": "Real Estate Refinance"
+    },
+    {
+      "value": "Real Estate Improvements"
+    }
+  ]
+}

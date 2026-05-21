@@ -1,0 +1,6 @@
+{
+  "enabled": true,
+  "subject": "Information Requested",
+  "heading": "Information Requested",
+  "body": "<p style=\"margin: 0 auto\">Dear {{{additionalApplicantFirstName}}}, You are receiving this email because {{{applicantFirstName}}} {{{applicantLastName}}} submitted an online {{{product_name}}} application to {{{org_name}}} on behalf of {{{business_name}}}. According to the information provided, you have control or interest in this business. To help us complete the application process, please log in using the link below and the phone number ending in {{{additionalApplicantLast4PhoneDigits}}} so we can obtain some additional information from you. We look forward to serving you and your business!</p>"
+}

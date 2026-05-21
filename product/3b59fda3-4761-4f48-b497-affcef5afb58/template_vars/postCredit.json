@@ -1,0 +1,228 @@
+{
+  "consumerDeceased" : {
+    "enabled" : true,
+    "isHardDecline" : true,
+    "reason" : "Could not confirm applicant information"
+  },
+  "consumerCreditFreeze" : {
+    "enabled" : true,
+    "isHardDecline" : false,
+    "reason" : "Could not confirm credit history"
+  },
+  "consumerNoHit" : {
+    "enabled" : true,
+    "isHardDecline" : true,
+    "reason" : "Guarantor does not have a credit file"
+  },
+  "consumerNoScore" : {
+    "enabled" : true,
+    "isHardDecline" : true,
+    "reason" : "Guarantor has limited credit experience"
+  },
+  "consumerNumInqL6MLowScore" : {
+    "enabled" : true,
+    "isHardDecline" : true,
+    "lowerThresholdInq" : 6,
+    "lowerThresholdScore" : 700,
+    "reason" : "High number of recent credit inquiries"
+  },
+  "consumerScore" : {
+    "enabled" : true,
+    "isHardDecline" : true,
+    "reason" : "Adverse personal credit report information",
+    "upperThreshold" : 660
+  },
+  "consumerNumCollection" : {
+    "enabled" : true,
+    "isHardDecline" : false,
+    "lowerThreshold" : 2,
+    "reason" : "Adverse personal credit report information"
+  },
+  "consumerNumInqL3M" : {
+    "enabled" : true,
+    "isHardDecline" : true,
+    "lowerThreshold" : 5,
+    "reason" : "High number of recent credit inquiries"
+  },
+  "IndividualBk" : {
+    "enabled" : true,
+    "isHardDecline" : false,
+    "lowerThreshold" : 1,
+    "reason" : "Foreclosure or bankruptcy"
+  },
+  "consumerBk" : {
+    "enabled" : true,
+    "isHardDecline" : true,
+    "lowerThreshold" : 0,
+    "reason" : "Foreclosure or bankruptcy",
+    "upperThreshold" : 48
+  },
+  "lexisnexisNoHit" : {
+    "enabled" : true,
+    "isHardDecline" : true,
+    "reason" : "Adverse business credit report information"
+  },
+  "liensOutstanding" : {
+    "enabled" : true,
+    "isHardDecline" : false,
+    "lowerThreshold" : 1,
+    "reason" : "Adverse personal information"
+  },
+  "consumerNumAccounts60DPDL1Y" : {
+    "enabled" : true,
+    "isHardDecline" : true,
+    "lowerThreshold" : 1,
+    "reason" : "Delinquent credit obligations with others"
+  },
+  "consumerScoreAndHighRisk" : {
+    "enabled" : true,
+    "isHardDecline" : true,
+    "reason" : "Adverse personal credit report information",
+    "upperThreshold" : 720
+  },
+  "consumerNumDelingL2Y" : {
+    "enabled" : true,
+    "isHardDecline" : false,
+    "lowerThreshold" : 2,
+    "reason" : "Delinquent credit obligations with others"
+  },
+  "eviction" : {
+    "enabled" : true,
+    "isHardDecline" : false,
+    "lowerThreshold" : 1,
+    "reason" : "Adverse personal information"
+  },
+  "consumerDti" : {
+    "enabled" : true,
+    "isHardDecline" : true,
+    "lowerThreshold" : 0.55,
+    "reason" : "High utilization of existing credit lines"
+  },
+  "consumerOldestTradelineMD" : {
+    "enabled" : true,
+    "isHardDecline" : false,
+    "reason" : "Guarantor has limited credit experience",
+    "upperThreshold" : 36
+  },
+  "felony" : {
+    "enabled" : true,
+    "isHardDecline" : false,
+    "reason" : "Adverse personal information"
+  },
+  "wealthIndex" : {
+    "enabled" : true,
+    "isHardDecline" : false,
+    "reason" : "Adverse personal information"
+  },
+  "consumerNum60DPDL6M" : {
+    "enabled" : true,
+    "isHardDecline" : false,
+    "lowerThreshold" : 2,
+    "reason" : "Delinquent credit obligations with others"
+  },
+  "derogRecord" : {
+    "enabled" : true,
+    "isHardDecline" : false,
+    "lowerThreshold" : 2,
+    "reason" : "Adverse personal information"
+  },
+  "liensAmount" : {
+    "enabled" : true,
+    "isHardDecline" : false,
+    "lowerThreshold" : 5000,
+    "reason" : "Adverse personal information"
+  },
+  "consumerNumInqL6MKO" : {
+    "enabled" : true,
+    "isHardDecline" : true,
+    "lowerThreshold" : 7,
+    "reason" : "High number of recent credit inquiries"
+  },
+  "consumerOldestTradelineKO" : {
+    "enabled" : true,
+    "isHardDecline" : true,
+    "reason" : "Guarantor has limited credit experience",
+    "upperThreshold" : 24
+  },
+  "consumerNum60DPDL2Y" : {
+    "enabled" : true,
+    "isHardDecline" : false,
+    "lowerThreshold" : 1,
+    "reason" : "Delinquent credit obligations with others"
+  },
+  "consumerNum90DPDL2Y" : {
+    "enabled" : true,
+    "isHardDecline" : false,
+    "lowerThreshold" : 1,
+    "reason" : "Delinquent credit obligations with others"
+  },
+  "consumerForeclosureEver" : {
+    "enabled" : true,
+    "isHardDecline" : true,
+    "lowerThreshold" : 1,
+    "reason" : "Foreclosure or bankruptcy"
+  },
+  "derogPublicRecord" : {
+    "enabled" : true,
+    "isHardDecline" : false,
+    "lowerThreshold" : 2,
+    "reason" : "Adverse personal credit report information"
+  },
+  "consumerBalanceStatedIncome" : {
+    "enabled" : true,
+    "isHardDecline" : false,
+    "lowerThreshold" : 0.7,
+    "reason" : "High utilization of existing credit lines"
+  },
+  "consumerForeclosureL2Y" : {
+    "enabled" : true,
+    "isHardDecline" : true,
+    "lowerThreshold" : 24,
+    "reason" : "Foreclosure or bankruptcy"
+  },
+  "liensEver" : {
+    "enabled" : true,
+    "isHardDecline" : false,
+    "lowerThreshold" : 5,
+    "reason" : "Adverse personal information"
+  },
+  "consumerNumAccounts90DPDL6M" : {
+    "enabled" : true,
+    "isHardDecline" : true,
+    "lowerThreshold" : 1,
+    "reason" : "Delinquent credit obligations with others"
+  },
+  "consumerNumInqL14D" : {
+    "enabled" : true,
+    "isHardDecline" : true,
+    "lowerThreshold" : 4,
+    "reason" : "High number of recent credit inquiries"
+  },
+  "creditUtilization70AndBalance" : {
+    "enabled" : true,
+    "isHardDecline" : true,
+    "reason" : "High utilization of existing credit lines",
+    "upperThreshold" : 70,
+    "upperThresholdBalance" : 2000
+  },
+  "creditUtilization70AndLowScore" : {
+    "enabled" : true,
+    "isHardDecline" : true,
+    "lowerThreshold" : 700,
+    "reason" : "High utilization of existing credit lines",
+    "upperThreshold" : 70
+  },
+  "creditUtilization90AndLowScore" : {
+    "enabled" : true,
+    "isHardDecline" : true,
+    "lowerThreshold" : 700,
+    "reason" : "High utilization of existing credit lines",
+    "upperThreshold" : 4
+  },
+  "evictionL2Y" : {
+    "enabled" : true,
+    "isHardDecline" : false,
+    "lowerThreshold" : 0,
+    "reason" : "Adverse personal information"
+  }
+}

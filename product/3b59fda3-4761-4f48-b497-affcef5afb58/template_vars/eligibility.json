@@ -1,0 +1,74 @@
+{
+  "regO": {
+    "enabled": true,
+    "reason": "Ineligible due to Reg O"
+  },
+  "politicallyExposedPerson": {
+    "enabled": true,
+    "reason": "Ineligible due to Politically Exposed Person"
+  },
+  "residencyStatus": {
+    "enabled": true,
+    "reason": "Ineligible due to residency status"
+  },
+  "individualIncome": {
+    "enabled": true,
+    "reason": "Ineligible due to individual income",
+    "upperThreshold": 20000
+  },
+  "nonProfit": {
+    "enabled": true,
+    "reason": "Ineligible due to non profit"
+  },
+  "trust": {
+    "enabled": true,
+    "reason": "Ineligible due to trust"
+  },
+  "footPrint": {
+    "enabled": true,
+    "reason": "Ineligible due to lending footprint",
+    "states": "'AZ', 'CA', 'MI', 'FL', 'TX'"
+  },
+  "businessFootPrint": {
+    "enabled": true,
+    "reason": "Ineligible due to business lending footprint",
+    "states": "'AZ', 'CA', 'MI', 'FL', 'TX'"
+  },
+  "statedSales": {
+    "enabled": true,
+    "reason": "Ineligible due to stated sales",
+    "upperThreshold": 150000
+  },
+  "ownershipChange": {
+    "enabled": true,
+    "reason": "Ineligible due to business sale"
+  },
+  "franchise": {
+    "enabled": true,
+    "reason": "Ineligible due to business franchise"
+  },
+  "moneyService": {
+    "enabled": true,
+    "reason": "Ineligible due to money service"
+  },
+  "currencyShipping": {
+    "enabled": true,
+    "reason": "Ineligible due to currency shipping"
+  },
+  "thirdPartyPaymentProcessor": {
+    "enabled": true,
+    "reason": "Ineligible due to third party payment processor"
+  },
+  "badCustomer": {
+    "enabled": true,
+    "reason": "Ineligible due historic activity with us"
+  },
+  "internalDebtRefi": {
+    "enabled": true,
+    "reason": "Ineligible due to internal debt refinance"
+  },
+  "existingLOC": {
+    "enabled": true,
+    "reason": "Ineligible due to business existing LOC"
+  }
+}

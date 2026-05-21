@@ -1,0 +1,6 @@
+{
+  "enabled": true,
+  "subject": "Welcome",
+  "heading": "Welcome",
+  "body": "<p style=\"margin: 0 auto\">Dear Valued Customer, Thank you for starting your application with {{{org_name}}}. We appreciate your interest in our services and are excited to assist you on your financial journey. To resume and complete your application, simply click on the unique link provided below. This link will direct you to the login page, where you can securely access your application and continue the process at your convenience:</p>"
+}

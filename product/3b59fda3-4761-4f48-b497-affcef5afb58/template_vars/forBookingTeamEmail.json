@@ -1,0 +1,7 @@
+{
+  "enabled": true,
+  "emailTo": "YourEmail@YourEmailDomain.com",
+  "subject": "URGENT: Application Is Ready For Booking",
+  "heading": "Application Processed",
+  "body": "<p style=\"margin: 0 auto\">Application {{{external_application_id}}} has been processed and is ready for booking.</p>"
+}

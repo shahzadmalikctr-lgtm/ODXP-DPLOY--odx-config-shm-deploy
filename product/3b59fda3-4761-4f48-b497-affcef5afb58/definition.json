@@ -1,0 +1,8 @@
+{
+  "productId": "3b59fda3-4761-4f48-b497-affcef5afb58",
+  "productName": "Commercial Cash Preferred",
+  "productType": "SMB_TL",
+  "productTypeName": "Business Term Loan",
+  "policy": "amt-smb-tl-policy",
+  "selfServiceManaged": true
+}

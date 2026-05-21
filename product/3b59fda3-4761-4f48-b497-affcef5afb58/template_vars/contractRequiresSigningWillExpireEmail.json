@@ -1,0 +1,6 @@
+{
+  "enabled" : true,
+  "subject": "Sign your contract to get your funds!",
+  "heading": "Your Offer Will Expire Tomorrow",
+  "body": "<p style=\"margin: 0 auto\">Hi {{{applicantFirstName}}},</p><p style=\"margin: 0 auto\"><br></p><p style=\"margin: 0 auto\">Your {{{org_name}}} {{{product_name}}} contract is about to expire. Sign your contract to avoid having to reapply and receive your funds!</p>"
+}

@@ -1,0 +1,6 @@
+{
+  "enabled": true,
+  "subject": "An Update from YOUR ORGANIZATION NAME",
+  "heading": "Application Decision",
+  "body": "<p style=\"margin: 0 auto\">Dear {{{applicantFirstName}}}, Thank you for your recent application at {{{org_name}}}. Although we have carefully reviewed your application, we regret that we cannot approve your request at this time because your application is incomplete.</p>"
+}

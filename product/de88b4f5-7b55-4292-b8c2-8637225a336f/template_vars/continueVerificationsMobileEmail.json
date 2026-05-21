@@ -1,0 +1,6 @@
+{
+  "enabled": true,
+  "subject": "Verify Your Identity",
+  "heading": "Verify Your Identity",
+  "body": "<p style=\"margin: 0 auto\">Dear {{{applicantFirstName}}},</p><p style=\"margin: 0 auto\">To continue your identity verification on a mobile device, log into your account.</p>"
+}

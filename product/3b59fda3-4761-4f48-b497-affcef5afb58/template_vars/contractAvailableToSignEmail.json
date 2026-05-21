@@ -1,0 +1,6 @@
+{
+  "enabled" : true,
+  "subject": "Congratulations! Sign your contract to get your funds!",
+  "heading": "Sign your contract to get your funds!",
+  "body": "<p style=\"margin: 0 auto\">Hi {{{applicantFirstName}}},</p><p style=\"margin: 0 auto\"><br></p><p style=\"margin: 0 auto\">Congratulations! Your {{{org_name}}} {{{product_name}}} application has been approved. Log into your application to sign your contract to get your funds!</p>"
+}

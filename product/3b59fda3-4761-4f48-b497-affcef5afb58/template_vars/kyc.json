@@ -1,0 +1,18 @@
+{
+  "enableDobCheck": {
+    "enabled": true,
+    "enableManualReview": false
+  },
+  "enableSsnCheck": {
+    "enabled": true,
+    "enableManualReview": false
+  },
+  "enableAddressCheck": {
+    "enabled": true,
+    "enableManualReview": false
+  },
+  "enableNameCheck": {
+    "enabled": true,
+    "enableManualReview": false
+  }
+}

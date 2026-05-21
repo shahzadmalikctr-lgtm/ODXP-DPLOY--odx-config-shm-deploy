@@ -1,0 +1,6 @@
+{
+  "bankAccountVer": {
+    "enabled": true
+  },
+  "verificationDataSource": "validifi"
+}

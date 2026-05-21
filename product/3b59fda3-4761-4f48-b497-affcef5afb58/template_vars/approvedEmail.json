@@ -1,0 +1,6 @@
+{
+  "enabled": true,
+  "subject": "You Are All Set!",
+  "heading": "Congratulations! Your product is approved",
+  "body": "<p style=\"margin: 0 auto\">Hi {{{applicantFirstName}}},</p><p style=\"margin: 0 auto\"><br></p><p style=\"margin: 0 auto\">Congratulations! You are all set and funds are on the way. You can access your account by logging into YOUR WEBSITE URL LINK HERE.</p>"
+}
